@@ -4,7 +4,6 @@
 - **Flutter & Dart**
 - **Bloc/Cubit** (State Management)
 - **Dio** (Networking)
-- **Freezed** (Code Generation & Immutability)
 - **GetIt** (Dependency Injection)
 - **Dartz** (Functional Programming - Either Type)
 
