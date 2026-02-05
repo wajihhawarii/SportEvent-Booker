@@ -1,0 +1,29 @@
+class AppText {
+  static const String sportEvents = "Sport Events";
+  static const String searchEvents = "Search events...";
+  static const String noEventsFound = "No events found";
+  static const String bookingSuccessful = "Booking successful!";
+  static const String category = "Category:";
+  static const String date = "Date:";
+  static const String location = "Location:";
+  static const String price = "Price:";
+  static const String availableSpots = "Available spots:";
+  static const String bookTicket = "Book Ticket";
+  static const String soldOut = "Sold Out";
+  static const String sportbooker = "Sport Booker";
+  static const String mybookings = "My Bookings";
+  static const String available = "Available:";
+  static const String noBookingsYet = "No bookings yet";
+  static const String eventStarted = "Event Started";
+  static const String eventImage = "event_image_";
+  static const String all = 'All';
+  static const String footBall = 'Football';
+  static const String basketBall = 'Basketball';
+  static const String tennis = 'Tennis';
+  static const String bookYourFavoriteEvents = "Book your favorite events";
+  static const String allEvents = "All Events";
+  static const String version = "Version 1.0.0";
+  static const String logout = "Logout";
+  static const String booked = "Booked";
+  static const String retry = "Retry";
+}

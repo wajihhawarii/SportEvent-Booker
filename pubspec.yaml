@@ -1,0 +1,83 @@
+name: ci_projecct
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  # For Apis 
+  dio: ^5.9.0
+  # Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App"
+  get_it: ^8.2.0  
+  # For Responsive
+  flutter_screenutil: ^5.9.3
+  # For storge in Local db
+  sqflite: ^2.4.2
+  #For get Local Path
+  path: ^1.9.0
+  flutter_bloc: ^9.1.1
+  # An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
+  flutter_svg: ^2.2.1
+  # A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode
+  equatable: ^2.0.7
+  # Flutter's core Dropdown Button widget with steady dropdown menu and many options you can customize to your needs.
+  dropdown_button2: ^2.3.9
+  # A Flutter package to use fonts from fonts.google.com. Supports HTTP fetching, caching, and asset bundling.
+  google_fonts: ^6.3.2
+  # Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
+  intl: ^0.20.2
+  # Functional Programming in Dart. Purify your Dart code using efficient immutable data structures, monads, lenses and other FP tools.
+  dartz: ^0.10.1
+  # For caching Images
+  cached_network_image: ^3.4.1
+  # For Testing Loacal db
+  sqflite_common_ffi: ^2.2.1
+  #For Check Internet
+  connectivity_plus: ^6.1.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/sport_icon.png" # ضع هنا مسار أيقونتك
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/data/events.json
+    - assets/images/
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+ 

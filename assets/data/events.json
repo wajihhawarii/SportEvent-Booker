@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Champions League Final",
+        "category": "Football",
+        "date": "2026-06-01T20:00:00Z",
+        "price": 150.00,
+        "location": "Wembley Stadium",
+        "image_url": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+        "available_spots": 5
+    },
+    {
+        "id": "2",
+        "title": "NBA Playoffs: Lakers vs Warriors",
+        "category": "Basketball",
+        "date": "2026-05-20T18:00:00Z",
+        "price": 300.00,
+        "location": "Crypto.com Arena",
+        "image_url": "https://images.unsplash.com/photo-1546519638-68e109498ffc",
+        "available_spots": 0
+    },
+    {
+        "id": "3",
+        "title": "Wimbledon Semi-Final",
+        "category": "Tennis",
+        "date": "2026-07-10T14:00:00Z",
+        "price": 450.00,
+        "location": "London",
+        "image_url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6",
+        "available_spots": 12
+    }
+]
