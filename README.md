@@ -8,6 +8,6 @@
 - **Dartz** (Functional Programming - Either Type)
 
 ## How to Run
-1. Clone the repo: `git clone [YOUR_REPO_LINK]`
+1. Clone the repo: `git clone [https://github.com/wajihhawarii/SportEvent-Booker.git]`
 2. Install dependencies: `flutter pub get`
 3.  Run the app: `flutter run`
